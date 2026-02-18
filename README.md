@@ -36,7 +36,7 @@ Install dependencies and run the development server to start collecting feedback
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn
+- npm/pnpm or yarn
 
 ### Installation
 
@@ -48,12 +48,12 @@ cd feedback_tracker
 
 2. Install dependencies:
 ```bash
-npm install
+pnpm install
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
+pnpm dev
 ```
 
 The application will be available at `http://localhost:5173` (or the port shown in your terminal).
@@ -61,7 +61,7 @@ The application will be available at `http://localhost:5173` (or the port shown 
 ### Building for Production
 
 ```bash
-npm run build
+pnpm build
 ```
 
 This creates an optimized production build in the `dist/` directory.
