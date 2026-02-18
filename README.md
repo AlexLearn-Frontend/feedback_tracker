@@ -42,7 +42,7 @@ Install dependencies and run the development server to start collecting feedback
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AlexLearn-Frontend/feedback_tracker.git
 cd feedback_tracker
 ```
 
